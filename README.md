@@ -7,5 +7,6 @@ Predicting customers with good and bad credit to issue credit cards:
   - A scatter plot is created to understand the correlation between age of customer and amount on account. It is observed that they are not homoschedastic and so to analyze further quantile regression is run. It is observed that older customers have positive relation with amount.
   - Decision Tree is created where it shows age as an insignificant variable differing from the results on the logistic regression.
   - Lift and Gains Chart is created to observe the difference in performance betweeen the Logistic Regression and the Decision Tree.
+  - Created some interactive visualizations with Plotly
   
 
