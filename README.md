@@ -1,5 +1,7 @@
 # German-Credit-Data-Analysis
 
+**Interactive Dashboard done using Plotly and Shiny**
+
 Business Case:
 Predicting customers with good and bad credit to issue credit cards:
   - Stratified sampling is done on the data with a SplitRatio of 0.8.
