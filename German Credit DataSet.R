@@ -15,7 +15,7 @@ train <- german_credit[train_index,]
 test <- german_credit[!train_index,]
 
 # Logistic Regression
-ger_logit <- glm(good_bad ~ age+savings+amount+checking, data = mydf, family = "binomial")
+ger_logit <- glm(good_bad ~ age+savings+duration+checking, data = mydf, family = "binomial")
 summary(ger_logit)
 
 predict(ger_logit, test, type="response")
